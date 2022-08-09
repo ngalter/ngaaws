@@ -1,6 +1,6 @@
 import About from './pages/About'
 import Banner from './pages/Banner'
-// import Charities from './pages/Charities'
+import Charities from './pages/Charities'
 // import Drawer from './pages/Drawer'
 import Sponsors from './pages/Sponsors'
 
@@ -10,7 +10,7 @@ function App() {
   <Banner />
   <About />
   <Sponsors />
-  {/* <Charities /> */}
+  <Charities />
    </div>
  )
 }

@@ -1,11 +1,13 @@
 .charitiesWrap {
   background: orange;
-  position:relative;
-  top: 100vh;
+  position: relative;
+  top: 0;
   width: 100vw;
   height: 100vh;
-  margin-left: 0px;
-  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
   z-index: 1;
 }
 .cGrid {

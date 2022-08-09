@@ -51,12 +51,12 @@ const Intrinsic = (props) => (
      target='blank'
      rel='noopener noreferer'>  
       <img
-      alt={props.title}
-      title={props.title}
+        alt={props.title}
+        title={props.title}
         src={getImg(props.slug)}
         width={'100%'}
         height={'auto'}
-            />
+        />
     </Link>
   </div>
 )

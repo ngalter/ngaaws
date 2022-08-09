@@ -13,7 +13,6 @@ function Sponsors() {
                     <Vendor 
                         key={key}
                         header={sponsor.name}
-                        sort={sponsor.sort}
                         img={sponsor.img}
                         slug={sponsor.slug}
                         link={sponsor.url}

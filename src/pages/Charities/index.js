@@ -1,13 +1,13 @@
 import React from 'react';
 import Vendor from '../Vendor';
-import styles from '../../../styles/charities.module.css';
-import data from '../../../data/charities.json';
+import '../../styles/charities.css';
+import data from '../../data/charities.json';
 
 function Charities() {
   
-    return (<div className={styles.charitiesWrap} id={'charities'}>
-        <div className={styles.cTitle}>Mercer County Turkey Trot Supports Local Charities! </div>
-        <div className={styles.cGrid}>
+    return (<div className={"charitiesWrap"} id={'charities'}>
+        <div className={"cTitle"}>Mercer County Turkey Trot Supports Local Charities! </div>
+        <div className={"cGrid"}>
             {
                 data.charity.map((charity, key) => (
                     <Vendor

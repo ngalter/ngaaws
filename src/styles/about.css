@@ -3,7 +3,8 @@
     position: relative;
     top: 200px;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 80px;
     margin-left: 0px;
     margin-right: 0px;
     z-index: 1;
@@ -18,7 +19,6 @@
     padding-right: 20px;
     padding-left: 10px;
     padding-top: 20px;
-    padding-bottom: 80px;
   }
   .aTitle {
     font-size: 16px;
@@ -43,21 +43,19 @@
         padding-right: 20px;
         padding-left: 10px;
         padding-top: 20px;
-        padding-bottom: 60px;
       }
-    .aboutWrap {
-        height: auto;
-        width: 100%;
-      }
+
   }
   @media screen and (max-width: 560px) {
     .aboutWrap {
-        top: 50px;
+      top: 20px;
+      padding-bottom: 20px;
       }
   }
   @media screen and (max-width: 360px) {
     .aboutWrap {
         top: 20px;
+        padding-bottom: 40px;
       }
   }
 
