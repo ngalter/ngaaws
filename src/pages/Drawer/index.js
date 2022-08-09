@@ -95,7 +95,7 @@ export default function TemporaryDrawer() {
             <ListItemIcon>
                    <CameraAltIcon className={"drawericon"}/>
             </ListItemIcon>
-            <ListItemText primary={'Photos 2020'} className={"drawertext"} />
+            <ListItemText primary={'Runsignup Photos'} className={"drawertext"} />
           </ListItem>
         </Link>
         <Link href="https://ckeddiephoto.shootproof.com/gallery/mctt2019/"
