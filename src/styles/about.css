@@ -3,7 +3,7 @@
     position: relative;
     top: 200px;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     padding-bottom: 80px;
     margin-left: 0px;
     margin-right: 0px;
@@ -52,10 +52,16 @@
       padding-bottom: 20px;
       }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 320px) {
     .aboutWrap {
         top: 20px;
         padding-bottom: 40px;
+      }
+  }
+  @media screen and (max-width: 300px) {
+    .aboutWrap {
+        top: 20px;
+        padding-bottom: 60px;
       }
   }
 
