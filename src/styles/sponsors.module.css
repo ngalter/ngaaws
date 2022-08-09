@@ -1,0 +1,58 @@
+.sponsorsWrap {
+    background-color: steelblue;
+    position: relative;
+    top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+  }
+  .sGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 60%;
+    gap: 20px;
+    margin: auto;
+  }
+.sTitle {
+    font-size: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 60px;
+}
+.sFoot  {
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.sFoot a {
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+  @media screen and (max-width: 960px) {
+    .sGrid {
+      grid-template-columns: 50% 50%;
+      width: 85%;
+      gap: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .sFoot a {
+      font-size: 16px;
+      padding-top: 0px;
+      padding-bottom: 10vh;
+      text-align: center;
+      color: white;
+  }
+    .sponsorsWrap {
+        height: auto;
+        min-height: 100vh;
+      }
+  }

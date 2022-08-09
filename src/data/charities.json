@@ -1,0 +1,55 @@
+{
+    "charity": 
+[
+    {
+        "name": "JFCS",
+        "img": "../../../public/jfcs.png",
+        "slug": "jfcs",
+        "url": "https://www.jfcsonline.org/",
+        "alt": "Mercer County Turkey Trot Supports Jewish Family & Children's Service",
+        "title": "Mercer County Turkey Trot Supports Jewish Family & Children's Service",
+        "caption": "Mercer County Turkey Trot Supports Jewish Family & Children's Service",
+        "key": 1
+    },
+    {
+      "name": "RISE",
+      "img": "../../../public/rise.png",
+      "slug": "rise",
+      "url": "https://www.njrise.org/",
+      "alt": "Mercer County Turkey Trot Supports RISE",
+      "title": "Mercer County Turkey Trot Supports RISE",
+      "caption": "Mercer County Turkey Trot Supports RISE",
+      "key": 2
+    },
+    {
+      "name": "TASK",
+      "img": "../../../public/task.png",
+      "slug": "task",
+      "url": "http://www.trentonsoupkitchen.org/",
+      "alt": "Mercer County Turkey Trot Supports Trenton Area Soup Kitchen",
+      "title": "Mercer County Turkey Trot Supports Trenton Area Soup Kitchen",
+      "caption": "Mercer County Turkey Trot Supports Trenton Area Soup Kitchen",
+      "key": 3
+    },
+    {
+      "name": "Catholic Charities",
+      "img": "../../../public/cc.png",
+      "slug": "cc",
+      "url": "https://www.catholiccharitiestrenton.org/",
+      "alt": "Mercer County Turkey Trot Supports Catholic Charities Diocese of Trenton",
+      "title": "Mercer County Turkey Trot Supports Catholic Charities Diocese of Trenton",
+      "caption": "Mercer County Turkey Trot Supports Catholic Charities Diocese of Trenton",
+      "key": 4
+    },
+    {
+      "name": "Mercer Street Friends",
+      "img": "../../../public/msf.png",
+      "slug": "msf",
+      "url": "https://mercerstreetfriends.org/food-bank/",
+      "alt": "Mercer County Turkey Trot Supports Mercer Street Friends",
+      "title": "Mercer County Turkey Trot Supports Mercer Street Friends",
+      "caption": "Mercer County Turkey Trot Supports Mercer Street Friends",
+      "key": 5
+    }
+  ]
+  }

@@ -1,0 +1,10 @@
+.nav {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 960px) {
+    .nav {
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+  }

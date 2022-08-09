@@ -1,0 +1,65 @@
+{
+    "sponsor": 
+[
+  {
+    "name": "Roundview Capital",
+    "img": "/rvc.png",
+    "slug": "rvc",
+    "url": "https://roundviewcapital.com/",
+    "alt": "Roundview Capital",
+    "title": "Sponsored By Roundview Capital",
+    "caption": "Mercer County Turkey Trot Sponsored By Roundview Capital",
+    "key": 1
+  },
+{
+    "name": "Troutman Pepper",
+    "img": "../../../public/tp.png",
+    "slug": "tp",
+    "url": "https://www.troutman.com/",
+    "alt": "Troutman Pepper",
+    "title": "Sponsored By Troutman Pepper",
+    "caption": "Mercer County Turkey Trot Sponsored By Troutman Pepper",
+    "key": 2
+},
+{
+  "name": "Lasley Brahaney",
+  "img": "../../../public/lb.png",
+  "slug": "lb",
+  "url": "https://www.lasleybrahaney.com/",
+  "alt": "Lasley Brahaney",
+  "title": "Sponsored By Lasley Brahaney",
+  "caption": "Mercer County Turkey Trot Sponsored By Lasley Brahaney",
+  "key": 3
+},
+{
+  "name": "Stark & Stark",
+  "img": "../../../public/ss.png",
+  "slug": "ss",
+  "url": "https://www.stark-stark.com/",
+  "alt": "Stark & Stark",
+  "title": "Sponsored By Stark & Stark",
+  "caption": "Mercer County Turkey Trot Sponsored By Stark & Stark",
+  "key": 4
+},
+{
+  "name": "Bank Of Princeton",
+  "img": "../../../public/bp.png",
+  "slug": "bp",
+  "url": "https://thebankofprinceton.com/",
+  "alt": "Bank Of Princeton",
+  "title": "Sponsored By Bank Of Princeton",
+  "caption": "Mercer County Turkey Trot Sponsored By Bank Of Princeton",
+  "key": 5
+  },
+  {
+      "name": "BCB Bank",
+      "img": "../../../public/bcb.png",
+      "slug": "bcb",
+      "url": "https://www.bcb.bank/",
+      "alt": "BCB Bank",
+      "title": "Sponsored By BCB Bank",
+      "caption": "Mercer County Turkey Trot Sponsored By BCB Bank",
+      "key":  6
+    }
+  ]
+  }

@@ -1,0 +1,64 @@
+.aboutWrap {
+  background-color: white;
+    position: relative;
+    top: 200px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+  }
+  .aGrid {
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 700px;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  .aTitle {
+    font-size: 16px;
+    padding-top: 12px;
+    color: darkorange;
+    font-weight: 500;
+  }
+  .aText {
+    font-size: 14px;
+    padding-top: 3px;
+    color: #333;
+  }
+  @media screen and (max-width: 960px) {
+    .aGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 500px;
+        min-width: 265px;
+        gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+    .aboutWrap {
+        height: auto;
+        width: 100%;
+      }
+  }
+  @media screen and (max-width: 560px) {
+    .aboutWrap {
+        top: 50px;
+      }
+  }
+  @media screen and (max-width: 360px) {
+    .aboutWrap {
+        top: 20px;
+      }
+  }
+
+

@@ -1,0 +1,13 @@
+.socialWrap {
+    width: 100vw;
+    padding-top: 30px;
+    height: auto;
+    text-align: center;
+    z-index: 10;
+  }
+  .fb {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+    color: steelblue;;
+  }

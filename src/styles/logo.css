@@ -1,0 +1,34 @@
+.logoWrap {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -10;
+}
+.mcttlogo {
+    position: absolute;
+    top: 1vh!important;
+    right: 0!important;
+  }
+  @media screen and (max-width: 960px) {
+    .mcttlogo {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+    }
+  }
+  @media screen and (max-width: 670px) {
+    .mcttlogo {
+      position: absolute;
+      height: 75px;
+      width: 75px;
+    }
+}
+@media screen and (max-width: 460px) {
+  .mcttlogo {
+    height: 65px;
+    width: 65px;
+  }
+}
