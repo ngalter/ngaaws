@@ -1,20 +1,24 @@
 .sponsorsWrap {
     background-color: steelblue;
     position: relative;
-    top: 100vh;
+    top: 0;
     width: 100vw;
     height: 100vh;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     z-index: 1;
   }
   .sGrid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    width: 60%;
-    gap: 20px;
-    margin: auto;
+    width: 70%;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
 .sTitle {
     font-size: 40px;
     padding-right: 15px;
@@ -39,7 +43,7 @@
   @media screen and (max-width: 960px) {
     .sGrid {
       grid-template-columns: 50% 50%;
-      width: 85%;
+      width: 80%;
       gap: 10px;
       margin-left: auto;
       margin-right: auto;

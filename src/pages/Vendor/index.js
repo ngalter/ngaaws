@@ -1,56 +1,43 @@
-import Image from 'next/image'
 import React from 'react';
 import Link from '@mui/material/Link';
-import rvc from '../../public/rvc.png';
-import tp from '../../public/tp.png';
-import lb from '../../public/lb.png';
-import ss from '../../public/ss.png';
-import bp from '../../public/bp.png';
-import bcb from '../../public/bcb.png';
-import ty from '../../public/ty.png';
-import jfcs from '../../../public/jfcs.png';
-import rise from '../../../public/rise.png';
-import task from '../../../public/task.png';
-import cc from '../../../public/cc.png';
-import msf from '../../../public/msf.png';
 
 function getImg(slug) {
     let img = "";
     if (slug === "rvc") {
-      img = rvc;
+      img = "./rvc.png";
       return img;
     } else if (slug === "tp") {
-      img = tp;
+      img = "./tp.png";
       return img;
     } else if (slug === "lb") {
-      img = lb;
+      img = "./lb.png";
       return img;
     } else if (slug === "ss") {
-      img = ss;
+      img = "./ss.png";
       return img;
     } else if (slug === "bp") {
-      img = bp;
+      img = "./bp.png";
       return img;
     } else if (slug === "bcb") {
-      img = bcb;
+      img = "./bcb.png";
       return img;
     } else if (slug === "jfcs") {
-      img = jfcs;
+      img = "./jfcs.png";
       return img;
     } else if (slug === "rise") {
-      img = rise;
+      img = "./rise.png";
       return img;
     } else if (slug === "task") {
-      img = task;
-        return img;
+      img = "./task.png";
+      return img;
     } else if (slug === "ty") {
-        img = ty;
-        return img;
+      img = "./ty.png";
+      return img;
     } else if (slug === "cc") {
-      img = cc;
+      img = "./cc.png";
       return img;
     } else if (slug === "msf") {
-      img = msf;
+      img = "./msf.png";
       return img;
     } else {
       console.log('no image');
@@ -59,17 +46,16 @@ function getImg(slug) {
 
 const Intrinsic = (props) => (
     <div>
-     <Link 
+     <Link
       href={props.link}
      target='blank'
      rel='noopener noreferer'>  
-      <Image
+      <img
       alt={props.title}
       title={props.title}
-      src={getImg(props.slug)}
-      layout="intrinsic"
-      width={500}
-      height={281}
+        src={getImg(props.slug)}
+        width={'100%'}
+        height={'auto'}
             />
     </Link>
   </div>
