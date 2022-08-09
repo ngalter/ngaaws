@@ -14,7 +14,7 @@ import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import InfoIcon from '@mui/icons-material/Info';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import HomeIcon from '@mui/icons-material/Home';
-import styles from '../../../styles/drawer.module.css';
+import '../../styles/drawer.css';
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -47,9 +47,9 @@ export default function TemporaryDrawer() {
         >
           <ListItem button >
             <ListItemIcon>
-              <CheckCircleIcon className={styles.drawericon} />
+              <CheckCircleIcon className={"drawericon"} />
             </ListItemIcon>
-            <ListItemText primary={'Sign Up'} className={styles.drawertext} />
+            <ListItemText primary={'Sign Up'} className={"drawertext"} />
           </ListItem>
         </Link>
         <Link
@@ -57,34 +57,34 @@ export default function TemporaryDrawer() {
         >
           <ListItem button >
             <ListItemIcon>
-                   <HomeIcon className={styles.drawericon} />
+                   <HomeIcon className={"drawericon"} />
             </ListItemIcon>
-            <ListItemText primary={'Home'} className={styles.drawertext} />
+            <ListItemText primary={'Home'} className={"drawertext"} />
           </ListItem>
           </Link>
         <Divider />
         <Link href={'#about'}>
           <ListItem  button >
             <ListItemIcon>
-                   <InfoIcon  className={styles.drawericon}/>
+                   <InfoIcon  className={"drawericon"}/>
             </ListItemIcon>
-            <ListItemText primary={'About'} className={styles.drawertext}/>
+            <ListItemText primary={'About'} className={"drawertext"}/>
           </ListItem>
           </Link>
         <Link href={'#sponsors'}>
           <ListItem  button >
             <ListItemIcon>
-                   <InfoIcon className={styles.drawericon} />
+                   <InfoIcon className={"drawericon"} />
             </ListItemIcon>
-            <ListItemText primary={'Sponsors'} className={styles.drawertext} />
+            <ListItemText primary={'Sponsors'} className={"drawertext"} />
           </ListItem>
           </Link>
           <Link href={'#charities'}>
           <ListItem  button >
             <ListItemIcon>
-                   <InfoIcon className={styles.drawericon}/>
+                   <InfoIcon className={"drawericon"}/>
             </ListItemIcon>
-            <ListItemText primary={'Charities'} className={styles.drawertext}/>
+            <ListItemText primary={'Charities'} className={"drawertext"}/>
           </ListItem>
           </Link>
           <Divider /> 
@@ -93,9 +93,9 @@ export default function TemporaryDrawer() {
         rel="noopener noreferrer">
           <ListItem  button >
             <ListItemIcon>
-                   <CameraAltIcon className={styles.drawericon}/>
+                   <CameraAltIcon className={"drawericon"}/>
             </ListItemIcon>
-            <ListItemText primary={'Photos 2020'} className={styles.drawertext} />
+            <ListItemText primary={'Photos 2020'} className={"drawertext"} />
           </ListItem>
         </Link>
         <Link href="https://ckeddiephoto.shootproof.com/gallery/mctt2019/"
@@ -103,9 +103,9 @@ export default function TemporaryDrawer() {
         rel="noopener noreferrer">
           <ListItem  button >
             <ListItemIcon>
-                   <CameraAltIcon className={styles.drawericon} />
+                   <CameraAltIcon className={"drawericon"} />
             </ListItemIcon>
-            <ListItemText primary={'Photos 2019'} className={styles.drawertext} />
+            <ListItemText primary={'Photos 2019'} className={"drawertext"} />
           </ListItem>
         </Link>
         <Link
@@ -115,9 +115,9 @@ export default function TemporaryDrawer() {
         >
           <ListItem button >
             <ListItemIcon>
-              <AvTimerIcon className={styles.drawericon}/>
+              <AvTimerIcon className={"drawericon"}/>
             </ListItemIcon>
-            <ListItemText primary={'Results'} className={styles.drawertext} />
+            <ListItemText primary={'Results'} className={"drawertext"} />
           </ListItem>
         </Link>
         <Divider />      
@@ -126,9 +126,9 @@ export default function TemporaryDrawer() {
         rel="noopener noreferrer">
           <ListItem  button >
             <ListItemIcon>
-                   <MailIcon className={styles.drawericon} />
+                   <MailIcon className={"drawericon"} />
             </ListItemIcon>
-            <ListItemText primary={'Contact'} className={styles.drawertext} />
+            <ListItemText primary={'Contact'} className={"drawertext"} />
           </ListItem>
         </Link>
       </List>
