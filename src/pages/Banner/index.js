@@ -4,7 +4,7 @@ import '../../styles/banner.css';
 
 const Banner = () => {
     return (
-        <div id={"home"} >    
+        <div>    
                 <img className={'bannerwrap'}
                 src="./run.jpg"
                 alt="running"

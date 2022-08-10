@@ -6,7 +6,7 @@ import Sponsors from './pages/Sponsors'
 import { SuperSEO } from 'react-super-seo'
 
 function App() {
-  return (<div>
+  return (<div id={"home"}>
     <SuperSEO
       title="Mercer County Turkey Trot"
       description="Thanksgiving Morning 5k run and 1k walk. Raise money for local charities and food pantries.  Mercer County, West Windsor, NJ."
