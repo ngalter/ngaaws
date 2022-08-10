@@ -9,7 +9,7 @@ function App() {
   return (<div id={"home"}>
     <SuperSEO
       title="Mercer County Turkey Trot"
-      description="Thanksgiving Morning 5k run and 1k walk. Raise money for local charities and food pantries.  Mercer County, West Windsor, NJ."
+      description="Thanksgiving Morning, Thursday, November 24, 2022 5k run and 1 mile walk. Raise money for local charities and food pantries.  Mercer County, West Windsor, New Jersey, NJ."
       lang="en"
       openGraph={{
         ogImage: {
