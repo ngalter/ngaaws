@@ -4,6 +4,11 @@ import Charities from './pages/Charities'
 import Drawer from './pages/Drawer'
 import Sponsors from './pages/Sponsors'
 import { SuperSEO } from 'react-super-seo'
+import ReactGA from 'react-ga';
+
+ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize('UA-54611743-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (<div id={"home"}>
