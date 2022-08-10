@@ -1,27 +1,14 @@
-.bannertextWrap {
-    background-color: transparent;
-    position: absolute;
-    top: 0vh!important;
-    width: 100vw;
-    max-height: 100vh;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: -1;
-  }
 .btTitle1 {
-    font-size: 40px;
+    padding-top: 40px;
+    font-size: 35px;
     font-weight: 700;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 15vh;
     color: white;
     text-align: center;
     position: relative;
 }
 .btTitle2 {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 700;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 10px;
@@ -31,7 +18,7 @@
 }
 .btTitle3 {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 10px;
@@ -41,8 +28,10 @@
 }
 @media screen and (max-width: 960px) {
     .btTitle1 {
-        font-size: 30px;
-        padding-top: 8vh;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 40px;
+        font-size: 35px;
     }
     .btTitle2 {
         font-size: 22px;
@@ -53,9 +42,10 @@
 }
 @media screen and (max-width: 670px) {
     .btTitle1 {
-        font-weight: 500;
-        font-size: 22px;
-        padding-top: 3vh;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 30px;
     }
     .btTitle2 {
         font-size: 20px;
@@ -66,12 +56,13 @@
 }
 @media screen and (max-width: 400px) {
     .btTitle1 {
-        font-size: 23px;
+        padding-top: 20px;
         padding-right: 30px;
         padding-left: 30px;
+        font-size: 20px;
     }
     .btTitle2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .btTitle3 {
         font-size: 14px;
