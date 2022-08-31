@@ -4,6 +4,7 @@ import Social from '../Social';
 import '../../styles/about.css';
 import data from '../../data/about.json';
 
+
 function About() {
     return (<div className={"aboutWrap"} id={'about'}>
         <div><Social /></div>

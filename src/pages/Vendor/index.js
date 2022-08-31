@@ -34,7 +34,7 @@ function getImg(slug) {
       img = "./ty.png";
       return img;
     } else if (slug === "cc") {
-      img = "./cc.png";
+      img = "./arc.png";
       return img;
     } else if (slug === "msf") {
       img = "./msf.png";
