@@ -8,7 +8,7 @@ function BannerText() {
         <div className={"btTitle1"}>10th Annual Mercer County Turkey Trot</div>
         <div className={"btTitle2"}>Thursday, November 24, 2022</div>
         <div className={"btTitle3"}>Mercer County Park, West Windsor, NJ</div>
-        <div className={"btTitle4"}>Registration Opens September 1</div>
+        <div className={"btTitle4"}>Registration is Open</div>
         <SignUpButton /> 
        </div>
     )
